@@ -1,0 +1,1 @@
+function e(e,t){e.addEventListener(`toggle`,()=>document.dispatchEvent(new CustomEvent(`inhalt:geaendert`)),{capture:!0,signal:t})}export{e as default};

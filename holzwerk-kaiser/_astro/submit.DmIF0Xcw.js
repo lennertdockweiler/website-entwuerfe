@@ -1,0 +1,1 @@
+async function e(e,t,n){if(!e)return await new Promise(e=>setTimeout(e,900)),{ok:!0,demo:!0};n&&t.append(`access_key`,n);try{return{ok:(await fetch(e,{method:`POST`,headers:{Accept:`application/json`},body:t})).ok,demo:!1}}catch{return{ok:!1,demo:!1}}}export{e as t};

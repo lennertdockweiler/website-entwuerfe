@@ -1,0 +1,1 @@
+function e(e,t){let n=e.replace(/\D/g,``);if(n.length!==5)return{status:`ungueltig`};let r=t.orte.find(e=>e.plz.includes(n));return r?{status:r.status,ort:r.name}:t.plz.some(e=>n.startsWith(e))?{status:`ja`}:t.anfrage.some(e=>n.startsWith(e))?{status:`anfrage`}:{status:`nein`}}export{e as t};

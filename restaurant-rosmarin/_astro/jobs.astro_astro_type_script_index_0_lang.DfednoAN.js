@@ -1,0 +1,1 @@
+import{a as e,s as t}from"./lifecycle.CEAYtnjI.js";e(()=>{let e=document.querySelector(`#f-stelle`);if(!e)return;let n=t();document.querySelectorAll(`[data-stelle]`).forEach(t=>t.addEventListener(`click`,()=>e.value=t.dataset.stelle,{signal:n}))});

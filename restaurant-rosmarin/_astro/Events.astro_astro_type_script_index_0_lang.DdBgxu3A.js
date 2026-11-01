@@ -1,0 +1,1 @@
+import{n as e}from"./dates.BDbr7WVd.js";import{a as t}from"./lifecycle.CEAYtnjI.js";t(()=>{let t=e().date;document.querySelectorAll(`[data-events]`).forEach(e=>{let n=Number(e.dataset.anzahl||3),r=0;e.querySelectorAll(`[data-datum]`).forEach(e=>{let i=e.dataset.datum>=t&&r<n;e.hidden=!i,i&&r++})})});

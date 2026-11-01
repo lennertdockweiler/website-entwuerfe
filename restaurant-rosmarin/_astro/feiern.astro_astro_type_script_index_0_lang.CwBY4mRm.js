@@ -1,0 +1,1 @@
+import{a as e}from"./lifecycle.CEAYtnjI.js";e(()=>{let e=document.querySelector(`#f-feier-personen`),t=new URLSearchParams(location.search).get(`personen`);e&&t&&/^\d+$/.test(t)&&(e.value=t)});

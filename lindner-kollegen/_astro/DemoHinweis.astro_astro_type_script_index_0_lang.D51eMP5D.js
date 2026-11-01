@@ -1,0 +1,1 @@
+import{t as e}from"./registry.DQzNVsvP.js";e(`[data-demo-oeffnen]`,(e,t)=>{let n=document.querySelector(`[data-demo-dialog]`);e.addEventListener(`click`,()=>n?.showModal(),{signal:t}),n?.addEventListener(`click`,e=>e.target===n&&n.close(),{signal:t})});

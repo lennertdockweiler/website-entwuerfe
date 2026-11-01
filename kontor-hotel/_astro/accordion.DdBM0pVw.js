@@ -1,0 +1,1 @@
+import{i as e}from"./lifecycle.WfH4QlQF.js";function t(t){e()||document.querySelectorAll(`[data-accordion] details`).forEach(e=>{e.addEventListener(`toggle`,()=>{e.open&&e.querySelector(`.acc__panel`)?.animate([{opacity:0,transform:`translateY(-6px)`},{opacity:1,transform:`none`}],{duration:450,easing:`cubic-bezier(.16,1,.3,1)`})},{signal:t})})}export{t as init};
